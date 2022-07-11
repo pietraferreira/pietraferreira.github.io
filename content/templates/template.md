@@ -9,7 +9,7 @@
   result = result.charAt(0).toUpperCase() + result.slice(1);
   tR += "---"
 %>
-title:  <%* tR += result %>
+title:  <%* tR += "\"" + result + "\"" %>
 tags:
 <% tp.file.cursor(1) %>
 programming-languagues:
