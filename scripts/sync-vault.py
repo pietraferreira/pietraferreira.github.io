@@ -36,10 +36,8 @@ INCLUDE = [
 ]
 
 # Vault-relative paths that are never published, even inside INCLUDE.
-EXCLUDE = [
-    "notes/inbox/",
-    "notes/inbox/",
-]
+# Prefer `publish: false` in the note itself: this file is public.
+EXCLUDE = []
 
 # Files in content/ owned by this repo rather than the vault.
 KEEP = {"index.md"}
