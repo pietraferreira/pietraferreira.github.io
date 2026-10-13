@@ -1,18 +1,18 @@
 ---
-draft: true
-title: Exam Revision Plan
+title: "Exam Revision Plan"
 tags:
   - university/exam2023
-last-edited: 2023-09-11
+  - university
 created: 2023-04-27
+type: note
 ---
 ---
 # [Exam timetable](https://intra.brunel.ac.uk/Exam.aspx):
 
-![](notes/images/Screenshot%202023-04-27%20at%2009.06.27.png)
+![[Screenshot 2023-04-27 at 09.06.27.png]]
 
 ---
-## [CS2003 Usability Engineering (04/05)](notes/university/year2/cs2003/cs2003-exam.md)
+## [[cs2003-exam|CS2003 Usability Engineering (04/05)]]
 ---
 ## Software Development and Management (10/05)
 
@@ -28,8 +28,11 @@ Best way to revise:
 50 multiple choice questions, with only one correct answer.
 
 ---
-## [CS2005 Networks and Operating Systems (12/05)](notes/university/year2/cs2005/cs2005-exam.md)
+## [[cs2005-exam|CS2005 Networks and Operating Systems (12/05)]]
 ---
-## [CS2004 - Algorithms and Their Applications (16/05 and 18/05)](notes/university/year2/cs2004/cs2004-exam.md)
+## [[cs2004-exam|CS2004 - Algorithms and Their Applications (16/05 and 18/05)]]
 ---
 
+
+> [!nav]
+> [[university-hub|University]]

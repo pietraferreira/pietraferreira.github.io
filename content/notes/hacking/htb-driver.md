@@ -1,11 +1,11 @@
 ---
-title:  "HTB - Driver"
+title: "HTB - Driver"
 tags:
   - cs/hacking
   - cs/hacking/htb
   - cs/hacking/writeup
-programming-languages:
 created: 2022-07-17
+type: note
 ---
 # HTB - Driver
 ---
@@ -545,7 +545,5 @@ Mode              Size  Type  Last modified              Name
 - IppSec - Driver ([Video](https://www.youtube.com/watch?v=N2ahkarb-zI&t=634s))
 
 
-## Related
-- [HTB - Pandora](notes/hacking/htb-pandora.md)
-- [HTB - Secret](notes/hacking/htb-secret.md)
-- [Hacking Hub](notes/hacking/hacking-hub.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

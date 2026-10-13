@@ -1,10 +1,10 @@
 ---
-title:  "Stack-based Overflow - Linux x86"
+title: "Stack-based Overflow - Linux x86"
 tags:
   - cs/hacking
   - cs/hacking/htb
-programming-languages:
 created: 2022-07-11
+type: note
 ---
 They are caused by incorrect program code, which cannot process too large amounts of data correctly by the CPU and can, therefore, manipulate the CPU's processing.
 
@@ -12,13 +12,14 @@ For example if too much data is written to a reserved memory **buffer** or **sta
 
 A buffer overflow can overwrite the specific program's **return address** with arbitrary data, allowing an attacker to execute commands with the **privileges of the process** vulnerable to the buffer overflow by passing arbitrary machine code.
 
-- [CPU Architecture](notes/hacking/cpu-architecture.md)
-    - [Stacks and Queues](notes/general/stack.md)
-    - [Endianness](notes/hacking/endianness.md)
-- [Take Control of EIP](notes/hacking/take-control-eip.md)
-- [Generate Shellcode](notes/hacking/generate-shellcode.md)
-- [Identification of the Return Address](notes/hacking/identify-return-address.md)
-- [Prevention Techniques and Mechanisms](notes/hacking/so-prevention-techniques.md)
+- [[cpu-architecture]]
+    - [[stack|Stacks and Queues]]
+    - [[endianness]]
+- [[gdb]]
+- [[take-control-eip|Take Control of EIP]]
+- [[generate-shellcode]]
+- [[identify-return-address|Identification of the Return Address]]
+- [[so-prevention-techniques|Prevention Techniques and Mechanisms]]
 
 ## CPU Architecture
 A **Von-Neumann** architecture consists of four functional units:
@@ -84,7 +85,5 @@ There are four different types of ISA:
 >>>>>>> e671289f5537f91a2b4e49523f95459c6288c3fc
 
 
-## Related
-- [Take Control of EIP](notes/hacking/take-control-eip.md)
-- [Binary Exploitation](notes/hacking/binary-exploitation.md)
-- [Generate Shellcode](notes/hacking/generate-shellcode.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

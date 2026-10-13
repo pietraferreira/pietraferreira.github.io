@@ -1,10 +1,10 @@
 ---
-title: "THM - Daily Bugle Writeup"
+title: "2022-07-15"
 tags:
   - cs/hacking
-  - cs/hacking/writeup 
-programming-languages:
+  - cs/hacking/writeup
 created: 2022-07-15
+type: note
 ---
 # Daily Bugle Writeup (TryHackMe)
 ```bash
@@ -363,7 +363,5 @@ Trying admin / marianita Time: 00:01:15 <                                       
 ## Buffer Overflow Prep (TryHackMe)
 
 
-## Related
-- [Web Apps and Local File Inclusion (LFI)](notes/hacking/web-app-writeup.md)
-- [TryHackMe - Metasploit](notes/hacking/thm-metasploit.md)
-- [Hacking Hub](notes/hacking/hacking-hub.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

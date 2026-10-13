@@ -1,8 +1,9 @@
 ---
-title: "Web Apps and Local File Inclusion (LFI)"
+title: "2022-06-29"
 tags:
   - cs/hacking
 created: 2022-06-29
+type: note
 ---
 ## Web App Guide
 Source [here](https://joelmccracken.github.io/entries/a-simple-web-app-in-rust-pt-1/).
@@ -31,7 +32,5 @@ This is successful and a list of users is returned. It is worth noting that inpu
 `curl 'http://{target_IP}/?file=/etc/passwd'`
 
 
-## Related
-- [THM - Daily Bugle Writeup](notes/hacking/daily-bugle-writeup.md)
-- [Nginx](notes/hacking/nginx.md)
-- [Hacking Hub](notes/hacking/hacking-hub.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

@@ -1,10 +1,10 @@
 ---
-title:  "File Encryption"
+title: "File Encryption"
 tags:
   - cs/hacking
   - cs/hacking/htb
-programming-languages:
 created: 2022-07-11
+type: note
 ---
 # File Encryption
 ---
@@ -26,6 +26,5 @@ openssl enc -d -aes256 -iter 100000 -pbkdf2 -in passwd.enc -out passwd
 ```
 
 
-## Related
-- [THM - Encryption 101](notes/hacking/thm-encryption101.md)
-- [Hacking Hub](notes/hacking/hacking-hub.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

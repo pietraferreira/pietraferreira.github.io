@@ -1,12 +1,12 @@
 ---
-draft: true
 title: "CS2004 - Exam"
 tags:
-  - university/exam2023 
+  - university/exam2023
   - university/cs2004
+  - university
 created: 2023-05-14
+type: note
 ---
-
 - **Run time**: varies with the input and grows with input size (best case, worst case and average case).
     - $T(n)$: denotes the time an algorithm takes to execute, time versus input size $n$. It is measured by counting the number of primitive operations.
 - **Asymptotic Analysis**: high-level description instead of implementation, analysis how time taken increases as input size increases. It determines the running time in Big-Oh notation.
@@ -24,7 +24,7 @@ created: 2023-05-14
 
 - **Stacks** are **LIFO** whereas **queues** are **FIFO**.
 
-![](notes/images/Screenshot%202023-05-14%20at%2018.45.46.png)
+![[Screenshot 2023-05-14 at 18.45.46.png]]
 
 # Counting Primitive Operations
 ---
@@ -118,7 +118,7 @@ Worst-case: $O(n^2)$.
 
 ## Quick Sort
 ---
-![](notes/images/Screenshot%202023-05-14%20at%2018.59.33.png)
+![[Screenshot 2023-05-14 at 18.59.33.png]]
 
 ```
 Algorithm 2. QuickSort(List, First, Last)
@@ -144,7 +144,7 @@ Output: List in a sorted order
 
 - If a polynomial time algorithm is found for **any**  problem in **NP-complete**, then **every** problem in NP can be solved in polynomial time.
 
-![](notes/images/Screenshot%202023-05-14%20at%2018.48.35.png)
+![[Screenshot 2023-05-14 at 18.48.35.png]]
 
 # Hill Climbing Algorithm
 ---
@@ -204,7 +204,7 @@ and Fitness Function
 Output: Return the best individual
 ```
 
-![](notes/images/Screenshot%202023-05-16%20at%2007.29.12.png)
+![[Screenshot 2023-05-16 at 07.29.12.png]]
 
 - An **algorithm** is a step-by-step procedure or set of rules used to solve a specific problem or accomplish a particular task. It is a well-defined and unambiguous sequence of instructions designed to solve a problem in a finite amount of time.
 
@@ -260,3 +260,7 @@ The combination of route selection, pheromone update, and pheromone evaporation 
 - Emergence: Swarm intelligence exhibits emergent behavior, which means that complex global patterns or behavior arise from the interactions and local behaviors of individual entities within the swarm. The collective behavior of the swarm is not explicitly designed or controlled by a central authority but emerges from the interactions and local rules followed by the individuals. In the case of ACO, emergent behavior is observed as the colony of artificial ants collectively finds good solutions to the TSP.
 
 - Self-Organization: Swarm intelligence systems exhibit self-organization, which refers to the ability of individuals within the swarm to organize themselves without external coordination or central control. Each individual in the swarm follows simple rules and interacts with its neighbors or environment, leading to self-organized patterns or solutions that adapt to changing conditions. In ACO, the ants self-organize their exploration and exploitation of the solution space through the use of pheromone trails and local heuristics, resulting in the emergence of effective solutions to the TSP.
+
+
+> [!nav]
+> [[cs2004|CS2004]]

@@ -3,10 +3,10 @@ title: "Generate Shellcode"
 tags:
   - cs/hacking
   - cs/hacking/htb
-programming-languages:
 created: 2022-07-12
+type: note
 ---
-This is part of a guide that you can find [here](notes/hacking/htb-stack-based-overflow-linux.md).
+This is part of a guide that you can find [[htb-stack-based-overflow-linux|here]].
 
 We have to pay attention to:
 
@@ -63,8 +63,5 @@ We can check if the first bytes of our shellcode matches the bytes after the NOP
 ```
 
 
-
-## Related
-- [Take Control of EIP](notes/hacking/take-control-eip.md)
-- [Binary Exploitation](notes/hacking/binary-exploitation.md)
-- [Stack-overflow Prevention Techniques](notes/hacking/so-prevention-techniques.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

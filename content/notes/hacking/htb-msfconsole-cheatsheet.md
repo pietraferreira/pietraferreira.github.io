@@ -4,7 +4,7 @@ tags:
   - cs/hacking/htb
   - cs/hacking/cheatsheet
   - help
-programming-languages:
+  - cs/hacking
 created: 2022-08-15
 type: cheatsheet
 ---
@@ -78,7 +78,5 @@ type: cheatsheet
 >  
 
 
-## Related
-- [Meterpreter](notes/hacking/htb-meterpreter-cheatsheet.md)
-- [TryHackMe - Metasploit](notes/hacking/thm-metasploit.md)
-- [Impacket and Random Stuff](notes/hacking/impacket-notes.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

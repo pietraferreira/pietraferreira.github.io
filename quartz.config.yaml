@@ -10,7 +10,6 @@ configuration:
   baseUrl: pietraferreira.github.io
   ignorePatterns:
     - "**/private/**"
-    - "**/university/**"
     - "**/daily/**"
     - "**/tasks/**"
     - "**/documents/**"

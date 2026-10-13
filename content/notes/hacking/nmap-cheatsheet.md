@@ -1,9 +1,9 @@
 ---
-title:  "Nmap Cheatsheet"
+title: "Nmap Cheatsheet"
 tags:
   - cs/hacking/tryhackme
   - help
-programming-languages:
+  - cs/hacking
 created: 2022-07-13
 type: cheatsheet
 ---
@@ -50,7 +50,5 @@ type: cheatsheet
 >  
 
 
-## Related
-- [Netcat](notes/hacking/netcat.md)
-- [Introduction to Networking](notes/hacking/htb-intro-networking.md)
-- [Hacking Hub](notes/hacking/hacking-hub.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

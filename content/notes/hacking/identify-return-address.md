@@ -4,8 +4,8 @@ tags:
   - cs/hacking
   - cs/hacking/stack-overflow
   - cs/hacking/htb
-programming-languages:
 created: 2022-07-12
+type: note
 ---
 # Identify Return Address
 ---
@@ -62,6 +62,5 @@ Then we run our exploit again:
 ```
 
 
-## Related
-- [Take Control of EIP](notes/hacking/take-control-eip.md)
-- [Stack-based Buffer Overflows on Linux x86](notes/hacking/htb-stack-based-overflow-linux.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

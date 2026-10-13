@@ -1,13 +1,13 @@
 ---
-draft: true
 title: "CS2003 - Exam Revision"
 tags:
   - university/cs2003
   - university/exam2023
-last-edited:
+  - university
 created: 2023-04-30
+type: note
 ---
-![](notes/images/Pasted%20image%2020230427090700.png)
+![[Pasted image 20230427090700.png]]
 
 - Need to have references.
 
@@ -147,3 +147,7 @@ Cognitive Walkthrough is a usability evaluation method in which evaluators simul
 >   - new Promise
 >   
 >  
+
+
+> [!nav]
+> [[cs2003|CS2003]]

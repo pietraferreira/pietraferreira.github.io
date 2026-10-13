@@ -3,8 +3,8 @@ title: "Files Transfer - HTB Writeup"
 tags:
   - cs/hacking
   - cs/hacking/htb
-programming-languages:
 created: 2022-07-06
+type: note
 ---
 # File Transfers
 ## PowerShell Base64 Encode and Decode
@@ -394,6 +394,5 @@ ftp> bye
 ```
 
 
-## Related
-- [File Transfers](notes/hacking/htb-file-transfers.md)
-- [File Transfer Cheatsheet](notes/hacking/htb-file-transfer-cheatsheet.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

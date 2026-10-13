@@ -1,10 +1,10 @@
 ---
-draft: true
-title:  "Forum DevLog"
+title: "Forum DevLog"
 tags:
   - university/cs2001
-programming-languages:
+  - university
 created: 2023-01-12
+type: note
 ---
 # Forum DevLog
 ---
@@ -119,3 +119,7 @@ created: 2023-01-12
     All done with the registration system, allowing the user to change their details and logout.
 
     I noticed a **bug** where the tag and topic they choose is **not** getting sent to the database, so I have to re-select it when approving.
+
+
+> [!nav]
+> [[cs2001|CS2001]]

@@ -1,10 +1,10 @@
 ---
-title:  "Meterpreter"
+title: "Meterpreter"
 tags:
   - cs/hacking/htb
   - cs/hacking/cheatsheet
   - help
-programming-languages:
+  - cs/hacking
 created: 2022-08-15
 type: cheatsheet
 ---
@@ -85,6 +85,5 @@ type: cheatsheet
 >  
 
 
-## Related
-- [MSFConsole Cheatsheet](notes/hacking/htb-msfconsole-cheatsheet.md)
-- [TryHackMe - Metasploit](notes/hacking/thm-metasploit.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

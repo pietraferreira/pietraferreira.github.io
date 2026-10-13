@@ -1,10 +1,10 @@
 ---
-title:  "TryHackMe - Encryption 101"
+title: "TryHackMe - Encryption 101"
 tags:
   - cs/hacking
   - cs/hacking/thm
-programming-languages:
 created: 2022-07-17
+type: note
 ---
 # Encryption - Crypto 101
 **Ciphertext** - The result of encrypting a plain text, encrypted data
@@ -119,6 +119,5 @@ AES and DES both operate on blocks of data (a block is a fixed size series of bi
 AES is complicated to explain, and doesn’t seem to come up as often. If you’d like to learn how it works, here’s an excellent video from Computerphile [https://www.youtube.com/watch?v=O4xNJsjtN6E](https://www.youtube.com/watch?v=O4xNJsjtN6E)
 
 
-## Related
-- [File Encryption](notes/hacking/file-encryption.md)
-- [Hacking Hub](notes/hacking/hacking-hub.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

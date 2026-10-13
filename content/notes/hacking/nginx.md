@@ -1,10 +1,10 @@
 ---
-title:  "Nginx"
+title: "Nginx"
 tags:
   - cs/hacking
   - cs/hacking/htb
-programming-languages:
 created: 2022-07-11
+type: note
 ---
 Used for transferring files to Apache.
 
@@ -73,7 +73,5 @@ tail -1 /var/www/upload/SecretUploadDirectory/users.txt
 Then we can navigate to `http://localhost/SecretUploadDirectory`.
 
 
-## Related
-- [Introduction to Networking](notes/hacking/htb-intro-networking.md)
-- [RDP](notes/hacking/rdp.md)
-- [Hacking Hub](notes/hacking/hacking-hub.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

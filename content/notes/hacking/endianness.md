@@ -3,10 +3,10 @@ title: "Endianness"
 tags:
   - cs/hacking
   - cs/hacking/htb
-programming-languages:
 created: 2022-07-12
+type: note
 ---
-This is part of a guide that you can find [here](notes/hacking/htb-stack-based-overflow-linux.md).
+This is part of a guide that you can find [[htb-stack-based-overflow-linux|here]].
 
 Bytes are loaded in different order, called **endianness**.
 
@@ -24,6 +24,5 @@ Mainframe processors use the **big-endian** format, some RISC architectures, min
 | Little-Endian | DD | CC | BB | AA |
 
 
-## Related
-- [CPU Architecture](notes/hacking/cpu-architecture.md)
-- [Binary Exploitation](notes/hacking/binary-exploitation.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

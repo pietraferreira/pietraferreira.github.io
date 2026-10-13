@@ -1,11 +1,11 @@
 ---
-title:  "HTB - Catch Writeup"
+title: "HTB - Catch Writeup"
 tags:
   - cs/hacking
   - cs/hacking/htb
   - cs/hacking/writeup
-programming-languages:
 created: 2022-07-24
+type: note
 ---
 ## HTB - Catch
 Catching an API key out of an Android APK file.
@@ -266,7 +266,5 @@ It works on Catchet!! `10.10.11.150:8000/auth/login`. We have version **2.4.0**.
 ${DB_USERNAME}
 
 
-## Related
-- [HTB - Pandora](notes/hacking/htb-pandora.md)
-- [HTB - Secret](notes/hacking/htb-secret.md)
-- [Hacking Hub](notes/hacking/hacking-hub.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

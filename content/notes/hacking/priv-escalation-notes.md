@@ -2,8 +2,8 @@
 title: "Random Priviledge Escalation Notes"
 tags:
   - cs/hacking
-programming-languages:
 created: 2022-07-17
+type: note
 ---
 Remove duplicates and clean file:
 
@@ -97,7 +97,5 @@ reg query HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\ /f "Proxy" /s
 Just as putty stores credentials, any software that stores passwords, including browsers, email clients, FTP clients, SSH clients, VNC software and others, will have methods to recover any passwords the user has saved.
 
 
-## Related
-- [LOLBins](notes/hacking/lolbins.md)
-- [Pentesting Notes & Commands](notes/hacking/pentesting-notes-commands.md)
-- [Hacking Hub](notes/hacking/hacking-hub.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

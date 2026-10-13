@@ -1,16 +1,16 @@
 ---
-draft: true
 title: "Introduction"
 tags:
   - university/cs2001
-programming-languages:
+  - university
 created: 2022-09-19
+type: note
 ---
 The theme of the project will be based on the [UN Sustainable Development Goals](https://www.un.org/sustainabledevelopment/).
 
-![Screenshot 2022-09-19 at 14.25.54](notes/images/Screenshot%202022-09-19%20at%2014.25.54.png)
+![[Screenshot 2022-09-19 at 14.25.54.png]]
 
-It will be a **full-stack web application with a server backend, pulling and pushing data from and to a data source. It will expose a [REST API](notes/university/year2/cs2001/rest-api.md) to a front-end client.**
+It will be a **full-stack web application with a server backend, pulling and pushing data from and to a data source. It will expose a [[rest-api]] to a front-end client.**
 
 We will use Scrum, and have two leads emulating Product Owner and Scrum Master.
 
@@ -33,3 +33,7 @@ We will use Scrum, and have two leads emulating Product Owner and Scrum Master.
     - Database: MySQL.
     - Front-end: React.js Framework.
     - Testing: Java Unit testing, PostMan for API testing.
+
+
+> [!nav]
+> [[cs2001|CS2001]]

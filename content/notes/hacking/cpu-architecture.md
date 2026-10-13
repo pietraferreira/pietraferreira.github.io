@@ -3,10 +3,10 @@ title: "CPU Architecture"
 tags:
   - cs/hacking
   - cs/hacking/htb
-programming-languages:
 created: 2022-07-12
+type: note
 ---
-This is part of a guide that you can find [here](notes/hacking/htb-stack-based-overflow-linux.md).
+This is part of a guide that you can find [[htb-stack-based-overflow-linux|here]].
 
 A **Von-Neumann** architecture consists of four functional units:
 - Memory
@@ -124,12 +124,11 @@ It performs two operations:
 2. Changes the **instruction pointer** (**EIP**) to the call destination and starts execution there.
 
 ## See Also
-- [Stack Overflow Guide - HTB](notes/hacking/htb-stack-based-overflow-linux.md)
-- [Stacks and Queues](notes/general/stack.md)
-- [Endianness](notes/hacking/endianness.md)
+- [[htb-stack-based-overflow-linux|Stack Overflow Guide - HTB]]
+- [[stack|Stacks and Queues]]
+- [[endianness]]
+- [[gdb]]
 
 
-## Related
-- [Endianness](notes/hacking/endianness.md)
-- [Binary Exploitation](notes/hacking/binary-exploitation.md)
-- [Take Control of EIP](notes/hacking/take-control-eip.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

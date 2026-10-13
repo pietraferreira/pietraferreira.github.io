@@ -1,13 +1,12 @@
 ---
-draft: true
 title: "CS2005 - Exam"
 tags:
-  - university/exam2023 
-  - university/cs2005 
-last-edited:
+  - university/exam2023
+  - university/cs2005
+  - university
 created: 2023-05-03
+type: note
 ---
-
 - 4 questions.
 - An answer should be around 500 to 800 words.
 
@@ -15,7 +14,7 @@ created: 2023-05-03
 ---
 - Questions 1 is a short answer about anything.
 
-### Example questions:  
+### Example questions:
 1. Which two of the OSI model’s layers are NOT included in the TCP/IP stack?  
 2. The Internet Standards are described in formal documents. What are these documents called?  
 3. What is the interface between a process and the network?  
@@ -27,9 +26,9 @@ created: 2023-05-03
 9. Is Trojan Horse an example of program threat?  
 10. For the screenshot of Wireshark examining HTTP behaviour, what are the IP address and port number of the client host?
 
-![](notes/images/Screenshot%202023-04-27%20at%2009.18.01.png)
+![[Screenshot 2023-04-27 at 09.18.01.png]]
 
-### Answers:  
+### Answers:
 1. The two layers of the OSI model that are not included in the TCP/IP stack are:
     - Presentation Layer (Layer 6): This layer is responsible for data representation and translation, such as encryption and decryption. The TCP/IP stack does not have a separate layer for these functions.
     - Session Layer (Layer 5): This layer establishes, manages, and terminates connections between applications. In the TCP/IP stack, these functions are typically handled by the Transport Layer (Layer 4).
@@ -175,7 +174,7 @@ Threads can interact and share resources through shared variables or objects. Ho
 
 In summary, the lifecycle of a Java thread includes creation, runnable, running, blocked/waiting, and termination stages. Threads share runtime by being scheduled by the operating system's thread scheduler. They can interact and share resources, but care must be taken to ensure thread safety using synchronization mechanisms.
 
-### Operating Systems revision topics  
+### Operating Systems revision topics
 - Operating systems services  
 - Operating systems interfaces (users, programs)  
 - System calls  
@@ -238,7 +237,7 @@ Security measures can be implemented at various levels:
 
 In conclusion, accidental or malicious security violations encompass various threats and actions that compromise the security of computer systems. Examples include unauthorised access, data breaches, DoS attacks, and information theft. Security measures can be implemented at the physical, network, and host levels to mitigate these risks.
 
-### Security revision topics  
+### Security revision topics
 - Security violations  
 - Security measures  
 - Program threats and examples  
@@ -251,7 +250,7 @@ In conclusion, accidental or malicious security violations encompass various thr
 
 ---
 ## Textbook References:
-### Computer Networks  
+### Computer Networks
 - Chapter 1 Computer Networks and the Internet  
 - [x] 1.1 What Is the Internet? ✅ 2023-05-11
 - [x] 1.1.1 A Nuts-and-Bolts Description ✅ 2023-05-11
@@ -280,7 +279,7 @@ In conclusion, accidental or malicious security violations encompass various thr
 - Chapter 5 The Network Layer: Control Plane  
 - [x] 5.2 Routing Algorithms (overview ONLY) ✅ 2023-05-11
 
-### Operating Systems Concepts  
+### Operating Systems Concepts
 - Chapter 2 Operating-System Structures  
 - [x] 2.1 Operating-System Services ✅ 2023-05-11
 - [x] 2.2 User and Operating-System Interface ✅ 2023-05-11
@@ -312,5 +311,9 @@ In conclusion, accidental or malicious security violations encompass various thr
 - [x] 17.1 Advantages of Distributed Systems ✅ 2023-05-11
 
 ---
-## Book Reviewing 
-- [PDF with annotations.](notes/university/year2/cs2005/annotation-computer-networks.md)
+## Book Reviewing
+- [[annotation-computer-networks|PDF with annotations.]]
+
+
+> [!nav]
+> [[cs2005|CS2005]]

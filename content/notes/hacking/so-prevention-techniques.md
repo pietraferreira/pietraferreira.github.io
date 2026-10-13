@@ -4,15 +4,15 @@ tags:
   - cs/hacking
   - cs/hacking/stack-overflow
   - cs/hacking/htb
-programming-languages:
 created: 2022-07-12
+type: note
 ---
 # Stack-overflow Prevention Techniques and Mechanisms
 ---
 Security mechanisms:
 
 - Canaries
-- Address Space Layout Randomisation ([](notes/hacking/cpu-architecture.md#ASLR))
+- Address Space Layout Randomisation ([[cpu-architecture#ASLR]])
 - Data Execution Prevention (DEP)
 
 ## Canaries
@@ -45,6 +45,5 @@ It is a feature in Windows XP and later in Service Pack 2 (SP2). It monitors pro
 It terminates the program if a program attempts to call or access the program code in an unauthorised manner.
 
 
-## Related
-- [Stack-based Buffer Overflows on Linux x86](notes/hacking/htb-stack-based-overflow-linux.md)
-- [Binary Exploitation](notes/hacking/binary-exploitation.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

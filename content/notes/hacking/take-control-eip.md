@@ -4,10 +4,10 @@ tags:
   - cs/hacking
   - cs/hacking/htb
   - cs/hacking/stack-overflow
-programming-languages:
 created: 2022-07-12
+type: note
 ---
-This is part of a guide that you can find [here](notes/hacking/htb-stack-based-overflow-linux.md).
+This is part of a guide that you can find [[htb-stack-based-overflow-linux|here]].
 
 We need to get the **instruction pointer** (**EIP**) under control so we can tell it to which address to jump. So it should point to some **shellcode** for example.
 
@@ -319,7 +319,5 @@ To find stack size, for example the size after overwritting:
 ```
 
 
-## Related
-- [Identify Return Address](notes/hacking/identify-return-address.md)
-- [Stack-based Buffer Overflows on Linux x86](notes/hacking/htb-stack-based-overflow-linux.md)
-- [Generate Shellcode](notes/hacking/generate-shellcode.md)
+> [!nav]
+> [[hacking-hub|Hacking]]

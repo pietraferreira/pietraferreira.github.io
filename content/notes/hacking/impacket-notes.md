@@ -2,8 +2,8 @@
 title: "Impacket and Random Stuff"
 tags:
   - cs/hacking
-programming-languages:
 created: 2022-07-08
+type: note
 ---
 ## Nmap
 - Can use the `-Pn` switch to enumerate machines when packets are blocked by firewall.
@@ -53,6 +53,5 @@ strings -n 10 <filename>
 ```
 
 
-## Related
-- [MSFConsole Cheatsheet](notes/hacking/htb-msfconsole-cheatsheet.md)
-- [Pentesting Notes & Commands](notes/hacking/pentesting-notes-commands.md)
+> [!nav]
+> [[hacking-hub|Hacking]]
